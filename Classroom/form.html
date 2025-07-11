@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Action Attribute</h1>
+    <p>it is used to define what action needs to be performed when a form is submitted or where the form data should be sent.</p>
+    <h1>Form Elements</h1>
+    <h2>Input </h2>
+    <p>used to create multiple form controls<br>there are multiple types of inputs that can be created using type Attribute </p>
+    <h2>1. Type Attribute</h2>
+    <p>there are multiple types text , password, number, button,time, color.</p>
+    <h2>2. Placeholder Attribute</h2>
+    <h2>Label</h2>
+    <p>Label element represents a caption for an item in a user interface.<br>it makes a connection between text and input element</p>
+    <form action="/server">
+        <div>
+            <label > Username
+            <input type="text" placeholder="enter username"><br>
+            </label>
+        </div>
+        <div>
+            <p>Label classical approach</p>
+            <label for="password">Password: </label>
+            <input type="password" id="password" placeholder="enter password"><br>
+        </div>
+        <div>
+            <label for="age">Enter age</label>
+            <input type="number" id="age" placeholder="enter your age">
+        </div>
+        Number
+        <input type="number">
+        <br>
+        Time<input type="time"><br>
+        Color<input type="color">
+        <div>
+            <button>SUBMIT</button>
+            <p>Button behavior in a form (Default) is to submit all the information and send the data to the action link </p>
+            <h2>Button Element:</h2>
+            <ul>
+                <li>type attribute - submit, button, reset</li>
+            </ul>
+            <button type="submit">Login</button>
+            <button type="button">Hello</button>
+            <button type="reset">Reset</button>
+        </div>
+        <h2>Input Element</h2>
+        <p>Button using input</p>
+        <input type="button" value="click me">
+        <input type="submit" value="click me 2">
+        <h2>3. Name Attribute</h2>
+        <div>
+            <label for="username">Username</label>
+            <input 
+            type="username" 
+            id="username" 
+            placeholder="enter your username"
+            name="user">
+            <p>In form information saved in terms of name=value and passed in url where name is the attribute name and value is given by user</p>
+            <p>By default name attribute is not compulsory.</p>
+        </div>
+        <div>
+            <label for="email">Email ID: </label>
+            <input type="email" id="email" placeholder="enter email id">
+            <br><button >Submit</button>
+        </div>
+        </form>
+        <hr>
+        <form action="https://www.youtube.com/results">
+            <input type="text" placeholder="search in youtube" name="search_query">
+            <button>Search</button>
+            <p>Action sends the data of input box  to the url as soon as it sends the data a question mark ? is add to the url with the name, that makes the proper url  </p>
+        </form>
+
+</body>
+</html>

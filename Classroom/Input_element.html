@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Elemtent</title>
+</head>
+<body>
+    <form action="/server">
+    <h1>Checkbox- input element</h1>
+    <input type="checkbox" name="age" id="age" >
+    <label for="age">I am 18+</label>
+    <h2>Radio button(only one select) - input element</h2>
+    <input type="radio" name="gender" id="male" value="male"/>
+    <label for="male">male</label>
+    <input type="radio" name="gender" id="female" value="female"/>
+    <label for="female">female</label>
+    <p>if name attribute is same then we select only one of them else we should select multiple inputs</p>
+    <hr>
+    <div>
+        Choose your subjects:
+        <input type="checkbox" id="math" name="sub" value="math"/>
+        <label for="math">Math</label>
+        <input type="checkbox" id="science" name="sub" value="sci"/>
+        <label for="science">Science</label>
+        <input type="checkbox" id="english" name="sub" value="eng"/>
+        <label for="english">English</label>
+    </div>
+    <h2>Select Element- used to create dropdown in the form  </h2>
+    <div>
+        Choose your profession:
+        <select name="profession" id="profession">
+            <option selected>Select your option</option>
+            <option value="stu">Student</option>
+            <option value="dev">Developer</option>
+    </select>
+    </div>
+    <h2>Range</h2><p>range let the user specify a numeric value which must be no less than a given value, and no more than another given value. The precise value, however, is not considered important. This is typically represented using a slider or dial control rather than a text entry box like the number input type.</p>
+    <label for="vol">Select your volume</label>
+    <input 
+    type="range" 
+    id="vol" 
+    min="0" 
+    max="100" 
+    name="vol" 
+    step="10"
+    value="60">
+    <hr>
+    <h2>Text Area</h2>
+    <p>To input text or feedback or paragraph with default size 2row 2col</p>
+    <label for="feedback">Please give your feedback: </label>
+    <textarea id="feedback" name="feedback" rows="5"cols="130" placeholder="write your feedback here"></textarea>
+    <hr><br>
+    <button>Submit</button>
+    </form>  
+</body>
+</html>
