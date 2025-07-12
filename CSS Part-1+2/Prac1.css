@@ -1,0 +1,12 @@
+h2{
+    color:rgb(120,0,120);
+    text-decoration:  gray dotted line-through;
+}
+p{
+    background-color: black;
+    color: white;
+}
+button{
+    color:white;
+    background-color: blue;
+}
