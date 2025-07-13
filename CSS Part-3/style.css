@@ -1,0 +1,39 @@
+div{
+    height:200px;
+    width: 500px;
+background-color: pink;
+/*
+border-width: 5px;
+border-style: solid;
+border-color: greenyellow;*/
+border:5px solid rgb(12, 12, 12);
+/*
+border-left-color: blue ;
+border-left-style: dashed;
+border-top:dashed rebeccapurple;
+border-top-right-radius: 50%;
+*/
+border-radius: 10px;
+padding:10px;
+margin-bottom:25px;
+margin-left:20px;
+}
+h1{/*
+    border-color: blueviolet;
+    border-style: dashed;
+    border-radius: 50px;
+    */
+    border: 2px dashed green;
+    margin:0px;
+}
+
+button{
+    border:2px solid black;
+    background-color: yellow;
+  /*  border-radius: 10px;
+    padding-left: 20px;
+   padding:25px;
+   padding: 10px 25px;
+   padding:10px 20px 30px 40px;*/ 
+   padding:0px 0px 0px 30px;
+}

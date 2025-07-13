@@ -1,0 +1,28 @@
+.a{
+    background-color:greenyellow;
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    margin:5px;
+    display:  inline-block;
+}
+#third{
+    display: none;
+}
+h1{
+    border:2px black solid;
+    width:50%;
+
+}
+#outer{
+    height: 400px;
+    width:400px;
+    background-color: pink;
+    margin:50px;
+}
+#inner{
+    height: 100px;
+    width:100px;
+    background-color: wheat;
+    margin-left:50%;
+}
