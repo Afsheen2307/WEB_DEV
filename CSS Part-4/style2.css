@@ -1,0 +1,22 @@
+div{
+    height:200px;
+    width:200px;
+    background-color: #4dff00ff;
+ margin:0 auto;
+     transition:margin-top 1s ease-in 0.2s;
+   /* 
+    transition-duration: 0.5s;
+    transition-delay: 1s;
+    margin-top:10px;
+   
+   */
+
+}
+div:hover{ /* background-color: rgb(12, 12, 12);
+    
+
+   */
+    background-color: rgb(152, 20, 42);
+    border-radius: 50%;
+     margin-top: 400px;
+}
